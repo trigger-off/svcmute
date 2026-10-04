@@ -1,0 +1,9 @@
+name: SVCMute
+version: '${version}'
+
+main: com.triggeroff.svcmute.SVCMute
+api-version: '26.2'
+load: POSTWORLD
+softdepend: [LiteBans]
+depend:
+  - voicechat
